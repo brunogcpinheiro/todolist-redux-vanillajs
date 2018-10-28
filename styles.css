@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.todo,
+.goal {
+  border: 1px solid #ccc;
+  padding: 16px;
+  box-shadow: 0 2px 2px 2px #ccc;
+  margin: 25px;
+  color: #8c7ae6;
+}
+
+#addTodo,
+#addGoal {
+  border: none;
+  background: #8c7ae6;
+  color: #fff;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
+#addTodoField,
+#addGoalField {
+  outline: none;
+  padding-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8c7ae6;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#todos,
+#goals {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.buttonX {
+  border: none;
+  padding: 5px 16px;
+  background: red;
+  color: #fff;
+  cursor: pointer;
+}
